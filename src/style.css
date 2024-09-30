@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Atomic Age", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    background-image: url(background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.535);
+    display: grid;
+    place-items: center;
+}
+
+nav{
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    
+}
+
+nav h1{
+    flex-grow: 4;
+    color: rgb(243, 235, 229);
+}
+
+nav button{
+    width: 120px;
+    background-image: url(images.jpg);
+    border: none;
+    border-radius: 4px;
+    color: rgb(243, 235, 229);
+    font-size: medium;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.838);
+}
+
+#buttons{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content{
+    width: 70vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.673);
+    border-radius: 15px;
+    color: rgb(243, 235, 229);
+    padding: 35px;
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 3fr;
+    justify-content: center;
+    place-items: center;
+
+}
+
+#btns{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    height: 28px;
+}
+
+#btns button{
+    width: 100px;
+}
+
+#menu{
+    height: 70vh;
+    padding: 10px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid white;
+
+}
+
+
+
+#menu #container1, #container2, #container3, #container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#menu img{
+    width: 200px;
+}
+
+#contact{
+    display: grid;
+    width: 60vw;
+    height: 70vh;
+    place-items: center;
+}
+
+#contact form{
+    display: grid;
+    background-image: url(paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+#contact form textarea{
+    background-color: rgba(240, 248, 255, 0);
+    background-repeat: no-repeat;
+    border: none;
+    font-weight: bold;
+    padding: 20px;
+    max-height: 448px;
+    max-width: 380px;
+    min-height: 448px;
+    min-width: 380px;
+}
+
+
+
+
+
+
